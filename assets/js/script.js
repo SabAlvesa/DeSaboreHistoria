@@ -1,4 +1,3 @@
-
 function realizarBusca() {
 
     var termoBusca = document.getElementById('pesquisa').value;
