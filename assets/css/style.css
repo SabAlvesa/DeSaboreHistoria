@@ -5,25 +5,14 @@
     box-sizing: border-box;
 }
  body {
-       font-family: 'Poppins', cursive;
+       font-family: 'nunito',  sans-serif;
        background-color: #FFF9ED;
        text-align: center;
  }
+ 
  nav {
    background-color: #335c67;
-   padding: 10px 0;
-   margin-top: 50px;  
-}
-
-  
- nav {
-    background-color: #335c67;
-    padding: 10px 0;
- }
- 
- nav ul {
-    list-style: none;
-    padding: 0;
+   padding: 80px 0;
  }
  
  nav ul li{
@@ -32,78 +21,83 @@
     margin: 0 15px;
  }
 
- nav ul li a
- {
+ nav ul li a {
+   font-weight: bold;
     text-decoration: none;
     color: white;
-    font-size: 18px;
-    padding: 10px 15px;
-    background: #335c67;
-    border-radius: 5px;
- }
+    font-size: 30px;
+    padding: 10px 35px;
+    border-radius: 15px;
+}
 
  nav ul li a:hover {
     background-color: #9e2a2b;
  }
+
+ .barra-pesquisa {
+   position: relative;
+   width: 300px;
+   margin: 20px auto;
+ }
+ 
+ .input-pesquisa {
+   width: 300%;
+   padding: 10px 40px 10px 15px; /* padding à direita para ícone */
+   font-size: 25px;
+   border: 2px solid #335c67;
+   border-radius: 25px;
+   background-color: transparent;
+   color: #333;
+   outline: none;
+   margin: 20px 0 20px 150px;
+ }
+ 
+ .lupa-icon {
+   position: absolute;
+   right: 100px;
+   top: 50%;
+   color: #e09f3e;
+   pointer-events: none; /* não interfere no clique */
+  
+ }
+ 
+ .icone-historia-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px; /* ou onde quiser posicionar */
+ }
+ 
+ .historia {
+   font-size: 28px;             /* Tamanho do ícone */
+   color: #9e2a2b;              /* Cor principal */
+   cursor: pointer;             /* Mostra que é clicável */
+   transition: color 0.3s, transform 0.3s; /* Efeito suave */
+ }
+ 
+ .historia:hover {
+   color: #e09f3e;              /* Cor ao passar o mouse */
+   transform: scale(1.1);       /* Efeito zoom */
+ }
  
 
- .icone-favoritos {
-   position: fixed;  
-   top: 10px;        
-   right: 20px;      
-   font-size: 30px;  
-   color: #9e2a2b;       
-   cursor: pointer; 
-   align-items: center; 
-   z-index: 1000; 
+ .principais-categorias {
+   text-align: center;
+   padding: 40px;
+}
+
+.principais-categorias h2 {
+   font-size: 2em;
+   margin-bottom: 20px;
 }
 
 
-.top-icons {
-   position: fixed;
-   top: 10px;
-   right: 60px;
-   display: flex;
-   align-items: center;
-   z-index: 1000;
-}
-
-.barra-pesquisa {
-   display: flex;
-   align-items: center;
-   margin-left: 0px;
-}
-
-.input-pesquisa {
-   padding: 5px 150px ;
-   font-size: 16px;
-   border: 1px solid #9e2a2b;
-   border-radius: 5px;
-}
-
-.btn-pesquisa {
-   background-color: #9e2a2b;
-   border: none;
-   padding: 6px 10px;
-   border-radius: 5px;
-   margin-left: 5px;
-   cursor: pointer;
-}
-
-.btn-pesquisa i {
-   color: white;
-   font-size: 20px;
-}
-
-.btn-pesquisa:hover {
-   background-color: #e09f3e;
-}
 
 .recipe-types {
    display: flex;
    justify-content: space-between;
-   gap: 10px;
-   margin-top: 30px;
+   gap: 100px;
+   margin-top: 100px;
    padding: 0 20px;
  }
  
@@ -122,7 +116,7 @@
  
  .recipe-type img {
    width: 100%;            
-   height: 200px;          
+   height: 300px;          
    object-fit: cover;      
    border-radius: 8px;
    margin-bottom: 10px;    
@@ -137,5 +131,199 @@
  .recipe-type p {
    font-size: 1em;
  }
+ /*Banner*/
+ .banner-retangular {
+   width: 300%;             /* Largura do retângulo */
+   max-width: 1000px;      /* Largura máxima */
+   height: 300px;          /* Altura do retângulo */
+   margin: 100px auto;      /* Espaço do topo e centralização horizontal */
+   background-color: #335c67; /* Cor de fundo */
+   border-radius: 90px;    /* Cantos arredondados */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+   
+   display: flex;          /* Centraliza conteúdo dentro */
+   align-items: center;
+   justify-content: center;
+
+   color: white;
+   font-size: 32px;
+   font-weight: bold;
+}
+
+
+/*Ultimas noticias*/
+.linha-separadora {
+   border: none;
+   border-top: 3px solid #335c67;
+   width: 80%;
+   margin: 50px auto;
+ }
  
+ .ultimas-noticias {
+   text-align: left;
+   padding: 20px 150px;
+ }
+ 
+ .ultimas-noticias h2 {
+   font-size: 28px;
+   color: #335c67;
+   margin-bottom: 20px;
+ }
+ 
+ .noticia {
+   background-color: #FFF9ED;
+   border-left: 5px solid #e09f3e;
+   padding: 15px 20px;
+   margin-bottom: 15px;
+   border-radius: 8px;
+ }
+ 
+ .noticia h3 {
+   margin-bottom: 5px;
+   font-size: 20px;
+   color: #9e2a2b;
+ }
+ 
+ .noticia p {
+   font-size: 16px;
+   color: #333;
+ }
+
+ /*Ultimas Receitas*/
+
+ .receitas-mais-acessadas {
+   text-align: center;
+   padding: 50px 150px;
+ }
+ 
+ .receitas-mais-acessadas h2 {
+   font-size: 28px;
+   color: #335c67;
+   margin-bottom: 20px;
+ }
+ 
+ /* Grid de receitas */
+ .grid-receitas {
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ 
+ /* Estilo de cada card */
+ .card-receita {
+   width: 280px;
+   background-color: #FFF9ED;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   padding: 15px;
+   text-align: center;
+   transition: transform 0.3s ease-in-out;
+ }
+ 
+ .card-receita:hover {
+   transform: scale(1.05);
+ }
+ 
+ .card-receita img {
+   width: 100%;
+   height: 180px;
+   object-fit: cover;
+   border-radius: 10px;
+ }
+ 
+ .card-receita h3 {
+   margin-top: 10px;
+   font-size: 20px;
+   color: #9e2a2b;
+ }
+ 
+ .card-receita p {
+   font-size: 16px;
+   color: #333;
+ }
+ 
+
+
+
+/*Folder*/
+.rodape {
+   background-color: #335c67; /* cor de fundo */
+   color: white;              /* cor do texto */
+   text-align: center;        /* centraliza o texto */
+   padding: 50px 0;           /* espaço interno (topo/baixo) */
+   margin-top: 50px;          /* distância do conteúdo anterior */
+   font-size: 16px;
+   
+}
+
+
+.rodape a {
+   color: #fff;
+   text-decoration: none;
+}
+ 
+ .rodape a:hover {
+   color: #9e2a2b;
+ }
+
+.rodape a:hover {
+   text-decoration: underline;
+}
+.redes-sociais i {
+   font-size: 30px;
+   color: #ffdb58;
+   margin-right: 10px;
+   transition: transform 0.3s;
+ }
+ 
+ .redes-sociais i:hover {
+   transform: scale(1.2);
+   color: #9e2a2b; /* cor ao passar o mouse (opcional) */
+ }
+ 
+ .container-rodape {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: flex-start;
+   gap: 30px;
+ }
+ 
+ .logo img {
+   width: 120px;
+   height: auto;
+ }
+ 
+ .rodape h3 {
+   margin-bottom: 10px;
+   font-size: 18px;
+   font-size: 25px;
+   color: #fff;
+ }
+ 
+ .rodape p {
+   font-size: 14px;
+   line-height: 1.5;
+   max-width: 300px;
+ }
+ 
+ .redes-sociais a img {
+   width: 30px;
+   margin-right: 10px;
+   transition: transform 0.3s;
+ }
+ 
+ 
+ .direitos {
+   width: 100%;
+   display: flex;
+   justify-content: center; /* centraliza horizontalmente */
+   align-items: center;     /* centraliza verticalmente */
+   margin-top: 30px;
+   font-size: 13px;
+   border-top: 5px solid rgba(255, 255, 255, 0.3);
+   padding-top: 15px;
+   text-align: center;
+ }
  

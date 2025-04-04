@@ -6,62 +6,163 @@
     <title>De sabor e História</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
     
+    
+   
+
+
+
+
+
 </head>
 <body>
 
-    <div class="top-icons">
-        <a href="Favoritos.html" class="icone-favoritos">
-            <i class="fa-solid fa-heart"></i>
-        </a>
-
-        <div class="barra-pesquisa">
-            <input type="text" id="pesquisa" placeholder="Busque..." class="input-pesquisa">
-            <button type="button" class="btn-pesquisa" onclick="realizarBusca()"><i class="fa-solid fa-search"></i></button>
-
-        </div>
-        </div>
-    </div>
+  <div class="barra-pesquisa">
+    <input type="text" class="input-pesquisa" placeholder="Pesquisar receitas...">
+    <i class="fas fa-search lupa-icon"></i>
+  </div>
+  
+  <div class="icone-historia-container">
+    <i class="fas fa-book-open historia" title="História das Receitas"></i>
+  </div>
+  
+  
     
     <nav>
         <ul>
             <li><a href="PaginaReceitas.html">RECEITAS</a></li>
             <li><a href="PáginaConversorMedidas.html">CONVERSOR DE MEDIDAS</a></li>
             <li><a href="PaginaTendencias.html">TENDÊNCIAS</a></li>
+            <li><a href="PaginaTendencias.html">FALE CONOSCO</a></li>
         </ul>
     </nav>
 
-    <section class="recipe-types">
-        <div class="recipe-type">
-          <a href="confeitaria.html">
-            <img src="assets/img/confeitaria.jpg" alt="Confeitaria">
-          </a>
-          <h2>Confeitaria</h2>
-        </div>
-        <div class="recipe-type">
-          <a href="massas.html">
-            <img src="assets/img/massas.jpg" alt="Massas e Pastas">
-          </a>
-          <h2>Massas e Pastas</h2>
-        </div>
-        <div class="recipe-type">
-          <a href="carnes-aves.html">
-            <img src="assets/img/Carnes e aves.jpg" alt="Carnes e Aves"> 
-          </a>
-          <h2>Carnes e Aves</h2> 
-        </div>
-        <div class="recipe-type">
-          <a href="comidas-brasileiras.html">
-            <img src="assets/img/comida brasileira.jpg" alt="Comidas Brasileiras">
-          </a>
-          <h2>Comidas Brasileiras</h2>
-        </div>
-      </section>
-      
-      
-      
+    <section class="principais-categorias">
+      <h2>Principais Categorias</h2>
+      <div class="grid-receitas">
+          <div class="recipe-type">
+              <a href="confeitaria.html">
+                  <img src="assets/img/images (3).jpeg" alt="Confeitaria">
+                  <h3>Confeitaria</h3>
+              </a>
+          </div>
+          <div class="recipe-type">
+              <a href="massas.html">
+                  <img src="assets/img/images (1).jpeg" alt="Massas e Pastas">
+                  <h3>Massas e Pastas</h3>
+              </a>
+          </div>
+          <div class="recipe-type">
+              <a href="carnes-aves.html">
+                  <img src="assets/img/images (2).jpeg" alt="Carnes e Aves">
+                  <h3>Carnes e Aves</h3>
+              </a>
+          </div>
+          <div class="recipe-type">
+              <a href="comidas-brasileiras.html">
+                  <img src="assets/img/comidas-tipicas-brasileiras-virado-paulista.jpg" alt="Peixes e Frutos do Mar">
+                  <h3>Peixes e Frutos do Mar</h3>
+              </a>
+          </div>
+      </div>
+  </section>
+  
+          
+      <section class="banner-retangular">
+        <p>Anúncio aqui!</p>
+    </section>
+
+    <hr class="linha-separadora">
+
+<section class="ultimas-noticias">
+  <h2>Últimas Notícias</h2>
+
+  <div class="noticia">
+    <img src="caminho-da-imagem1.jpg" alt="Imagem da receita">
+    <div class="texto-noticia">
+      <h3>Título da Receita 1</h3>
+      <p>Descrição curta sobre essa receita deliciosa...</p>
+    </div>
+  </div>
+
+  <div class="noticia">
+    <img src="caminho-da-imagem2.jpg" alt="Imagem da receita">
+    <div class="texto-noticia">
+      <h3>Título da Receita 2</h3>
+      <p>Uma breve explicação sobre essa comida incrível...</p>
+    </div>
+  </div>
+
+</section>
+    
+
+<!-- Linha separadora -->
+<div class="linha-separadora"></div>
+
+<section class="receitas-mais-acessadas">
+  <h2>Receitas Mais Acessadas</h2>
+
+  <div class="grid-receitas">
+    <div class="card-receita">
+      <img src="caminho-da-imagem1.jpg" alt="Imagem da receita">
+      <h3>Título da Receita 1</h3>
+      <p>Uma receita incrível que todos adoram!</p>
+    </div>
+
+    <div class="card-receita">
+      <img src="caminho-da-imagem2.jpg" alt="Imagem da receita">
+      <h3>Título da Receita 2</h3>
+      <p>Essa delícia é uma das mais acessadas!</p>
+    </div>
+
+    <div class="card-receita">
+      <img src="caminho-da-imagem3.jpg" alt="Imagem da receita">
+      <h3>Título da Receita 3</h3>
+      <p>Uma opção irresistível para qualquer momento.</p>
+    </div>
+  </div>
+</section>
+
+
+    
+    <footer class="rodape">
+      <div class="container-rodape">
+  
+          <div class="logo">
+              <img src="images/sua-logo.png" alt="Logo do site">
+          </div>
+  
+          <div class="info">
+              <h3><a href="quem-somos.html" target="_blank">Sobre nós</a></h3>
+          </div>
+  
+          <div class="sobre">
+              <h3><a href="sobre-nos.html" target="_blank">Fale conosco</a></h3>
+          </div>
+  
+          <div class="redes-sociais">
+              <h3>Nos acompanhe:</h3>
+              <a href="https://instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://pinterest.com" target="_blank">
+                <i class="fab fa-pinterest"></i>
+              </a>
+          </div>
+  
+      </div>
+  
+      <div class="direitos">
+          <p>&copy; 2025 - Todos os direitos reservados</p>
+      </div>
+  </footer>
+  
+  
+   
 
 </body>
 </html>
