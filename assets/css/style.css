@@ -42,56 +42,79 @@
  
  .input-pesquisa {
    width: 300%;
-   padding: 10px 40px 10px 15px; /* padding à direita para ícone */
+   padding: 15px 40px 10px 15px; 
+
    font-size: 25px;
    border: 2px solid #335c67;
    border-radius: 25px;
    background-color: transparent;
    color: #333;
-   outline: none;
    margin: 20px 0 20px 150px;
  }
  
  .lupa-icon {
    position: absolute;
    right: 100px;
-   top: 50%;
+   top: 35px;
+   font-size: 25px; 
    color: #e09f3e;
-   pointer-events: none; /* não interfere no clique */
   
  }
  
- .icone-historia-container {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin-top: 20px; /* ou onde quiser posicionar */
- }
  
  .historia {
-   font-size: 28px;             /* Tamanho do ícone */
-   color: #9e2a2b;              /* Cor principal */
-   cursor: pointer;             /* Mostra que é clicável */
-   transition: color 0.3s, transform 0.3s; /* Efeito suave */
+  position:absolute;
+  top: 50px;
+  right: 50px;
+   font-size: 28px;            
+   color: #9e2a2b;             
+   cursor: pointer;             
+   transition: color 0.3s, transform 0.3s; 
  }
  
  .historia:hover {
-   color: #e09f3e;              /* Cor ao passar o mouse */
-   transform: scale(1.1);       /* Efeito zoom */
+   color: #e09f3e;            
+   transform: scale(1.1);       
  }
  
 
  .principais-categorias {
    text-align: center;
    padding: 40px;
+   color: #335c67;
+}
+
+.recipe-type:hover {
+  color: #e09f3e;
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+.recipe-type {
+  transition: all 0.3s;
+}
+
+
+.principais-categorias a {
+  text-decoration: none; 
+  color: inherit; 
 }
 
 .principais-categorias h2 {
    font-size: 2em;
    margin-bottom: 20px;
+   color: #335c67;
+   
 }
 
-
+.principais-categorias h6 {
+ 
+  font-size: 20px;
+  color: #333;
+  font-weight: normal;    
+  margin-top: 20px;     
+  margin-bottom: 10px;    
+}
 
 .recipe-types {
    display: flex;
@@ -131,20 +154,19 @@
  .recipe-type p {
    font-size: 1em;
  }
+
  /*Banner*/
  .banner-retangular {
-   width: 300%;             /* Largura do retângulo */
-   max-width: 1000px;      /* Largura máxima */
-   height: 300px;          /* Altura do retângulo */
-   margin: 100px auto;      /* Espaço do topo e centralização horizontal */
-   background-color: #335c67; /* Cor de fundo */
-   border-radius: 90px;    /* Cantos arredondados */
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional */
-   
-   display: flex;          /* Centraliza conteúdo dentro */
+   width: 300%;            
+   max-width: 1000px;      
+   height: 300px;          
+   margin: 100px auto;    
+   background-color: #335c67; 
+   border-radius: 90px;    
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+   display: flex;      
    align-items: center;
    justify-content: center;
-
    color: white;
    font-size: 32px;
    font-weight: bold;
@@ -165,7 +187,7 @@
  }
  
  .ultimas-noticias h2 {
-   font-size: 28px;
+  font-size: 2em;
    color: #335c67;
    margin-bottom: 20px;
  }
@@ -188,6 +210,26 @@
    font-size: 16px;
    color: #333;
  }
+ .noticia img {
+  width: 200px;        
+  height: auto;
+  border-radius: 10px; 
+  object-fit: cover;  
+}
+
+.texto-noticia {
+  flex: 1;
+}
+
+.texto-noticia h3 a {
+  text-decoration: none;
+  color: #335c67;
+  transition: color 0.3s;
+}
+
+.texto-noticia h3 a:hover {
+  color: #e09f3e;
+}
 
  /*Ultimas Receitas*/
 
@@ -197,20 +239,17 @@
  }
  
  .receitas-mais-acessadas h2 {
-   font-size: 28px;
+  font-size: 2em;
    color: #335c67;
    margin-bottom: 20px;
  }
- 
- /* Grid de receitas */
  .grid-receitas {
    display: flex;
    gap: 20px;
    justify-content: center;
    flex-wrap: wrap;
  }
- 
- /* Estilo de cada card */
+
  .card-receita {
    width: 280px;
    background-color: #FFF9ED;
@@ -248,15 +287,14 @@
 
 /*Folder*/
 .rodape {
-   background-color: #335c67; /* cor de fundo */
-   color: white;              /* cor do texto */
-   text-align: center;        /* centraliza o texto */
-   padding: 50px 0;           /* espaço interno (topo/baixo) */
-   margin-top: 50px;          /* distância do conteúdo anterior */
+   background-color: #335c67; 
+   color: white;              
+   text-align: center;        
+   padding: 50px 0;           
+   margin-top: 50px;          
    font-size: 16px;
    
 }
-
 
 .rodape a {
    color: #fff;
@@ -279,7 +317,7 @@
  
  .redes-sociais i:hover {
    transform: scale(1.2);
-   color: #9e2a2b; /* cor ao passar o mouse (opcional) */
+   color: #9e2a2b; 
  }
  
  .container-rodape {
@@ -318,8 +356,8 @@
  .direitos {
    width: 100%;
    display: flex;
-   justify-content: center; /* centraliza horizontalmente */
-   align-items: center;     /* centraliza verticalmente */
+   justify-content: center; 
+   align-items: center;     
    margin-top: 30px;
    font-size: 13px;
    border-top: 5px solid rgba(255, 255, 255, 0.3);
