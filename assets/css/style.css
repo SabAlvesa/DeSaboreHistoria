@@ -259,7 +259,7 @@
  }
 
  .card-receita {
-   width: 380px;
+   width: 280px;
    background-color: #FFF9ED;
    border-radius: 10px;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -280,8 +280,8 @@
  }
  
  .card-receita h3 {
-   margin-top: 10px;
-   font-size: 20px;
+   margin: 10px 0 5px;
+   font-size: 18px;
    color: #9e2a2b;
  }
  
@@ -289,8 +289,17 @@
    font-size: 16px;
    color: #333;
  }
- 
-
+ .card-receita a {
+  text-decoration: none; 
+  color: inherit; 
+  display: block; 
+ }
+ .grid-receitas {
+  display: flex;
+  flex-wrap: wrap; /* permite quebrar linha se a tela for pequena */
+  gap: 20px; /* espaço entre os cards */
+  justify-content: center; /* centraliza os cards */
+}
 
 /*Folder*/
 .rodape {
