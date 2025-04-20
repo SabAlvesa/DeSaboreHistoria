@@ -13,11 +13,11 @@ body {
 
 #login-form {
     background: #335c67;
-    padding: 150px;
+    padding: 60px;
     border-radius: 60px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 300px;
+    width: 450px;
 }
   
 h1 {

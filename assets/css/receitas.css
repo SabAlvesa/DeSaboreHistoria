@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #fffbea;
+  text-align: center;
+}
+
+nav {
+  background-color: #335c67;
+  padding: 80px;
+  margin-bottom: 50px;
+  
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding: 10px 35px;
+  border-radius: 15px;
+}
+
+nav ul li a:hover {
+  background-color: #9e2a2b;
+}
+
+.barra-pesquisa {
+  position: relative;
+  width: 280px;
+  margin: 20px auto;
+}
+
+.input-pesquisa {
+  width: 300%;
+  padding: 15px 40px 10px 15px;
+  font-size: 25px;
+  border: 2px solid #335c67;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #333;
+  margin: 20px 0 20px 150px;
+}
+
+.lupa-icon {
+  position: absolute;
+  right: 90px;
+  top: 35px;
+  font-size: 25px;
+  color: #e09f3e;
+}
+
+.icone-container {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  display: flex;
+  gap: 25px;
+}
+
+.historia,
+.login {
+  font-size: 35px;
+  color: #9e2a2b;
+  cursor: pointer;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.historia:hover,
+.login:hover {
+  color: #e09f3e;
+  transform: scale(1.1);
+}
+
+
+
+h1, h2 {
+  font-size: 35px;
+  color: #9e2a2b;
+  margin-bottom: 20px; 
+}
+
+#nutricao button {
+  margin-top: 10px;
+  padding: 15px 35px; 
+  background-color: #e09f3e;
+  border: 2px solid transparent;
+  border-radius: 15px; 
+  cursor: pointer;
+  color:#333;
+  font-size: 15px;
+  transition: background-color 0.3s;
+}
+
+#nutricao button:hover {
+  background-color: #9e2a2b;
+}
+
+
+.recipe-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.recipe-image {
+  width: 25%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px; 
+}
+
+#ingredientes,
+#nutricao,
+#modo-preparo{
+  border-top: 2px solid #335c67;
+  padding-top: 20px;
+  margin: 30px auto 0; 
+  width: 50%; 
+}
+
+#modo-preparo ol {
+  list-style-position: inside; 
+  padding-left: 0;           
+  margin-left: 20px;        
+}
+
+#modo-preparo li {
+  margin-bottom: 15px;       
+}
+.ingredientes-lista p, #modo-preparo li {
+  margin-bottom: 8px; 
+  font-size: 25px;
+}
+
+.estrela-wrapper {
+  position: absolute; 
+  display: flex;
+  top: 40%;
+  left: 20%;
+  
+}
+
+.estrela {
+  width: 100px;
+  height: 100px;
+  background-color: #e09f3e;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  position: relative; 
+  transition: transform 0.3s;
+  z-index: 2;
+
+}
+
+.estrela:hover {
+  transform: scale(1.1);
+}
+
+.tooltip {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  width: 300px;
+  background-color: rgba(59, 59, 59, 0.95);
+  color: #fff;
+  text-align: justify;
+  border-radius: 15px;
+  padding: 20px;
+  position: absolute;
+  z-index: 1;
+  top: 100%; 
+  left: 50%;
+  transform: translateX(-50%); 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.estrela-wrapper:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/*Folder*/
+.rodape {
+  background-color: #335c67; 
+  color: white;              
+  text-align: center;        
+  padding: 50px 0;           
+  margin-top: 50px;          
+  font-size: 16px;
+  
+}
+
+.rodape a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.rodape a:hover {
+  color: #9e2a2b;
+}
+
+.rodape a:hover {
+  text-decoration: underline;
+}
+.redes-sociais i {
+  font-size: 30px;
+  color: #ffdb58;
+  margin-right: 10px;
+  transition: transform 0.3s;
+}
+
+.redes-sociais i:hover {
+  transform: scale(1.2);
+  color: #9e2a2b; 
+}
+
+.container-rodape {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+.rodape h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.rodape p {
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 300px;
+}
+
+.redes-sociais a img {
+  width: 30px;
+  margin-right: 10px;
+  transition: transform 0.3s;
+}
+
+
+.direitos {
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  margin-top: 30px;
+  font-size: 13px;
+  border-top: 5px solid rgba(255, 255, 255, 0.3);
+  padding-top: 15px;
+  text-align: center;
+}
+
+

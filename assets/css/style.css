@@ -296,9 +296,9 @@
  }
  .grid-receitas {
   display: flex;
-  flex-wrap: wrap; /* permite quebrar linha se a tela for pequena */
-  gap: 20px; /* espaço entre os cards */
-  justify-content: center; /* centraliza os cards */
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: center; 
 }
 
 /*Folder*/

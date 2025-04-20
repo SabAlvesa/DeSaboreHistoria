@@ -3,9 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <title>Página do Usuário</title>
+  <link rel="stylesheet" href="assets/css/usuario.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Bem-vindo(a), Sabrina!</h1>
-  <p>Você entrou com sucesso.</p>
+
+  <div class="sidebar">
+    <a href="index.html">Menu Principal</a>
+    <a href="PaginaReceitas.html">Receitas</a>
+    <a href="Historia.html">Histórias</a>
+    <a href="#" id="logout-btn">Sair</a>
+  </div>
+
+  <div class="main-content">
+    <div class="profile">
+      <div class="profile-pic-container">
+        <label for="upload-img" class="upload-label">
+          <img src="https://via.placeholder.com/150" alt="Foto do usuário" id="profile-pic" class="profile-pic">
+          <div class="upload-btn">📷</div>
+        </label>
+        <input type="file" id="upload-img" accept="image/*" hidden>
+      </div>
+    </div>
+
+    <hr>
+    <h2>Bem-vindo(a), Sabrina!</h2>
+    <p>Aqui você pode acessar suas receitas favoritas, ler histórias ou sair da sua conta.</p>
+  </div>
+
+  <script src="assets/js/usuario.js"></script>
+
 </body>
 </html>
+
+

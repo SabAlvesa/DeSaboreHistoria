@@ -17,7 +17,7 @@ window.onload = function () {
     const password = document.getElementById('password').value;
   
     
-    if (username === 'Sabrina123' && password === 'verde@s123') {
+    if (username === 'Sabrina123' && password === 'sabrina123') {
       
       localStorage.setItem('username', username);
       localStorage.setItem('password', password);
