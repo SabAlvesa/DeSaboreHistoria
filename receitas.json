@@ -1,0 +1,351 @@
+[
+  {
+    "nome": "Sagu de Coco",
+    "categoria": "Recentes",
+    "historia": "Uma variação cremosa do tradicional sagu gaúcho, com um toque tropical do coco.",
+    "ingredientes": [
+      "1 xícara de sagu",
+      "1 litro de água",
+      "200ml de leite de coco",
+      "500ml de leite",
+      "1 lata de leite condensado",
+      "1 pitada de sal"
+    ],
+    "modoPreparo": "Cozinhe o sagu na água até ficar translúcido. Escorra e lave em água fria. Volte à panela com os demais ingredientes e cozinhe até engrossar. Sirva gelado."
+  },
+  {
+    "nome": "Panettone de Chocolate",
+    "categoria": "Recentes",
+    "historia": "O panettone, tradicionalmente italiano, ganha um toque especial com o sabor de chocolate.",
+    "ingredientes": [
+      "500g de farinha de trigo",
+      "200g de chocolate meio amargo",
+      "200g de açúcar",
+      "2 ovos",
+      "250ml de leite morno",
+      "25g de fermento biológico fresco",
+      "1 pitada de sal"
+    ],
+    "modoPreparo": "Misture todos os ingredientes e sove até a massa ficar lisa e homogênea. Deixe descansar até dobrar de volume. Modele, coloque em forma e asse por 30 minutos a 180°C."
+  },
+  {
+    "nome": "Tapioca Colorida",
+    "categoria": "Recentes",
+    "historia": "A tapioca tradicional ganha cores e sabores, sendo divertida para crianças e perfeita para festas.",
+    "ingredientes": [
+      "2 xícaras de goma de tapioca hidratada",
+      "Corantes alimentícios naturais ou artificiais",
+      "Coco ralado (opcional)",
+      "Leite condensado ou recheio a gosto"
+    ],
+    "modoPreparo": "Divida a goma de tapioca e misture com pequenas gotas de corante. Em uma frigideira quente, espalhe a goma colorida até unir os grãos. Recheie com coco, leite condensado ou outro recheio de sua preferência. Dobre e sirva."
+  },
+  {
+    "nome": "Bolinho de Chuva",
+    "categoria": "Lanches e Petiscos",
+    "historia": "Tradicional em tardes chuvosas no Brasil, essa receita é simples e traz memórias afetivas de infância.",
+    "ingredientes": [
+      "2 ovos",
+      "1 xícara de leite",
+      "2 xícaras de farinha de trigo",
+      "2 colheres de sopa de açúcar",
+      "1 colher de sopa de fermento em pó",
+      "Óleo para fritar",
+      "Açúcar e canela para polvilhar"
+    ],
+    "modoPreparo": "Misture todos os ingredientes até formar uma massa homogênea. Com uma colher, despeje pequenas porções da massa em óleo quente. Frite até dourar e polvilhe açúcar com canela."
+  },
+  {
+    "nome": "Pão de Queijo",
+    "categoria": "Lanches e Petiscos",
+    "historia": "Um clássico mineiro, o pão de queijo conquistou o Brasil inteiro com sua crocância por fora e maciez por dentro.",
+    "ingredientes": [
+      "500g de polvilho doce",
+      "250ml de leite",
+      "100ml de óleo",
+      "2 ovos",
+      "1 colher de chá de sal",
+      "200g de queijo meia cura ralado"
+    ],
+    "modoPreparo": "Ferva o leite com o óleo e o sal. Escalde o polvilho com essa mistura. Depois de esfriar um pouco, adicione os ovos e o queijo. Misture bem, faça bolinhas e asse em forno pré-aquecido a 180°C por cerca de 25 minutos."
+  },
+  {
+    "nome": "Pamonha",
+    "categoria": "Festa Junina",
+    "historia": "Deliciosa iguaria de milho típica das festas juninas do Brasil.",
+    "ingredientes": [
+      "4 espigas de milho verde",
+      "1 xícara de leite",
+      "1 xícara de açúcar",
+      "1 pitada de sal",
+      "Folhas de milho para embalar"
+    ],
+    "modoPreparo": "Rale o milho e bata no liquidificador com leite, açúcar e sal. Enrole em folhas de milho e cozinhe por cerca de 1 hora."
+  },
+  {
+    "nome": "Curau",
+    "categoria": "Festa Junina",
+    "historia": "Curau é um prato doce e cremoso feito com milho, muito consumido em festas juninas.",
+    "ingredientes": [
+      "6 espigas de milho verde",
+      "2 xícaras de leite",
+      "1 xícara de açúcar",
+      "1 colher de sopa de amido de milho"
+    ],
+    "modoPreparo": "Bata o milho no liquidificador com leite, depois passe por uma peneira. Cozinhe com o açúcar e amido de milho até engrossar. Sirva frio."
+  },
+  {
+    "nome": "Canjica",
+    "categoria": "Festa Junina",
+    "historia": "A canjica é um prato típico feito com milho e leite, muito consumido nas festas de São João.",
+    "ingredientes": [
+      "500g de milho para canjica",
+      "1 litro de leite",
+      "1 lata de leite condensado",
+      "1 xícara de coco ralado",
+      "1 colher de sopa de açúcar"
+    ],
+    "modoPreparo": "Deixe o milho de molho por 12 horas. Cozinhe na pressão por 40 minutos. Depois, cozinhe o milho com o leite e adicione os outros ingredientes. Sirva quente."
+  },
+  {
+    "nome": "Milho",
+    "categoria": "Festa Junina",
+    "historia": "O milho cozido é um clássico das festas juninas, consumido como petisco ou acompanhamento.",
+    "ingredientes": [
+      "6 espigas de milho",
+      "Água"
+    ],
+    "modoPreparo": "Ferva as espigas de milho em água até ficarem macias. Sirva com manteiga ou sal a gosto."
+  },
+  {
+    "nome": "Bolo de Fubá",
+    "categoria": "Festa Junina",
+    "historia": "O bolo de fubá é uma sobremesa tradicional das festas juninas.",
+    "ingredientes": [
+      "2 xícaras de fubá",
+      "1 xícara de leite",
+      "2 ovos",
+      "1 xícara de açúcar",
+      "1 colher de sopa de fermento em pó",
+      "1/2 xícara de óleo"
+    ],
+    "modoPreparo": "Misture todos os ingredientes e asse em forno pré-aquecido a 180°C por cerca de 35 minutos."
+  },
+  {
+    "nome": "Feijoada",
+    "categoria": "Pratos Típicos Brasileiros",
+    "historia": "A feijoada é um prato tradicional brasileiro, feito com feijão preto e carnes variadas.",
+    "ingredientes": [
+      "500g de feijão preto",
+      "300g de carne seca",
+      "200g de linguiça",
+      "100g de bacon",
+      "1 cebola",
+      "1 cabeça de alho",
+      "Folhas de louro"
+    ],
+    "modoPreparo": "Cozinhe as carnes e o feijão separadamente. Depois, refogue a cebola e o alho, adicione o feijão e as carnes e cozinhe até a mistura ficar bem incorporada. Sirva com arroz, farofa e couve."
+  },
+  {
+    "nome": "Moqueca",
+    "categoria": "Pratos Típicos Brasileiros",
+    "historia": "A moqueca é um prato de peixe típico da Bahia, com um sabor marcante e temperos especiais.",
+    "ingredientes": [
+      "1 kg de peixe",
+      "1 pimentão",
+      "1 cebola",
+      "2 tomates",
+      "1 colher de sopa de azeite de dendê",
+      "1 colher de sopa de leite de coco"
+    ],
+    "modoPreparo": "Tempere o peixe com sal, alho e limão. Refogue a cebola, o pimentão e o tomate. Adicione o peixe e cozinhe por 30 minutos. Finalize com azeite de dendê e leite de coco."
+  },
+  {
+    "nome": "Baião de Dois",
+    "categoria": "Pratos Típicos Brasileiros",
+    "historia": "O baião de dois é um prato nordestino feito com arroz e feijão verde, geralmente servido com carne seca.",
+    "ingredientes": [
+      "1 xícara de arroz",
+      "1 xícara de feijão verde",
+      "200g de carne seca",
+      "1 cebola",
+      "1 pimentão",
+      "Coentro a gosto"
+    ],
+    "modoPreparo": "Cozinhe o arroz e o feijão separadamente. Refogue a carne seca com cebola e pimentão. Misture tudo e finalize com coentro."
+  },
+    {
+      "nome": "Virado à Paulista",
+      "categoria": "Pratos Típicos Brasileiros",
+      "historia": "O virado à paulista é um prato simples e delicioso, típico do estado de São Paulo.",
+      "ingredientes": [
+        "500g de feijão",
+        "1 linguiça calabresa",
+        "200g de carne de porco",
+        "1 ovo",
+        "Farinha de mandioca"
+      ],
+      "modoPreparo": "Cozinhe o feijão e frite as carnes. Faça um arroz branco e monte o prato com o feijão, arroz, farofa e carne. Finalize com o ovo frito."
+    },
+    {
+      "nome": "Galinhada",
+      "categoria": "Pratos Típicos Brasileiros",
+      "historia": "A galinhada é um prato típico do interior do Brasil, feito com arroz e frango temperado.",
+      "ingredientes": [
+        "1 kg de frango",
+        "2 xícaras de arroz",
+        "1 pimentão",
+        "1 cebola",
+        "2 tomates",
+        "1 colher de chá de açafrão"
+      ],
+      "modoPreparo": "Tempere o frango com sal e alho. Refogue a cebola, pimentão e tomates. Acrescente o frango e o arroz, cozinhe até o arroz estar pronto e o frango dourado."
+    },
+    {
+      "nome": "Talharim",
+      "categoria": "Massas e Pastas",
+      "historia": "O talharim é uma massa italiana que pode ser servida com diferentes tipos de molhos, sendo uma opção popular no Brasil.",
+      "ingredientes": [
+        "300g de farinha de trigo",
+        "3 ovos",
+        "1 colher de chá de sal"
+      ],
+      "modoPreparo": "Misture a farinha com o sal e adicione os ovos, amassando até formar uma massa lisa. Abra a massa com um rolo e corte em tiras finas. Cozinhe em água salgada até ficar al dente."
+    },
+    {
+      "nome": "Lasanha de Mandica",
+      "categoria": "Massas e Pastas",
+      "historia": "A lasanha de mandica é uma versão brasileira da lasanha, substituindo a massa tradicional pela mandioca.",
+      "ingredientes": [
+        "500g de mandioca cozida e amassada",
+        "500g de carne moída",
+        "1 cebola",
+        "2 dentes de alho",
+        "1 molho de tomate",
+        "200g de queijo mussarela",
+        "Queijo parmesão"
+      ],
+      "modoPreparo": "Refogue a carne moída com cebola e alho. Em um refratário, alterne camadas de mandioca, carne e queijo, finalizando com molho de tomate. Asse por 20 minutos e finalize com queijo parmesão."
+    },
+    {
+      "nome": "Churrasco",
+      "categoria": "Carnes e Aves",
+      "historia": "O churrasco é um dos pratos mais tradicionais do Brasil, sendo uma refeição social e celebrada em todo o país.",
+      "ingredientes": [
+        "1 kg de carne bovina (picanha, fraldinha)",
+        "Sal grosso",
+        "Carvão"
+      ],
+      "modoPreparo": "Tempere a carne com sal grosso. Asse na churrasqueira até atingir o ponto desejado. Sirva com arroz, farofa e vinagrete."
+    },
+    {
+      "nome": "Frango com Quiabo",
+      "categoria": "Carnes e Aves",
+      "historia": "Prato tradicional do interior, especialmente de Minas Gerais, o frango com quiabo é muito saboroso e reconfortante.",
+      "ingredientes": [
+        "1 kg de frango cortado em pedaços",
+        "300g de quiabo",
+        "1 cebola",
+        "Alho a gosto",
+        "Tempero verde",
+        "Óleo"
+      ],
+      "modoPreparo": "Refogue o frango com cebola e alho. Quando estiver dourado, adicione o quiabo e o tempero verde, e cozinhe até o quiabo ficar macio. Sirva com arroz branco."
+    },
+    {
+      "nome": "Carne de Sol",
+      "categoria": "Carnes e Aves",
+      "historia": "A carne de sol é um prato nordestino de carne salgada e curada, que é servida com diversos acompanhamentos.",
+      "ingredientes": [
+        "1 kg de carne de sol",
+        "Cebola",
+        "Alho",
+        "Azeite"
+      ],
+      "modoPreparo": "Deixe a carne de sol de molho por algumas horas para retirar o sal. Grelhe a carne até dourar e sirva com arroz, feijão verde e farofa."
+    },
+    {
+      "nome": "Vaca Atolada",
+      "categoria": "Carnes e Aves",
+      "historia": "A vaca atolada é um prato típico do interior do Brasil, feito com costela de boi e mandioca.",
+      "ingredientes": [
+        "1 kg de costela de boi",
+        "500g de mandioca",
+        "Alho",
+        "Cebola",
+        "Pimentão"
+      ],
+      "modoPreparo": "Cozinhe a costela até ficar macia. Em outra panela, cozinhe a mandioca até ficar macia. Misture a costela com a mandioca e finalize com temperos a gosto."
+    },
+    {
+      "nome": "Cocada",
+      "categoria": "Doces e Sobremesas",
+      "historia": "A cocada é um doce tradicionalmente feito com coco e açúcar, popular em diversas regiões do Brasil.",
+      "ingredientes": [
+        "1 coco fresco ralado",
+        "2 xícaras de açúcar",
+        "1 xícara de água",
+        "1 colher de chá de manteiga"
+      ],
+      "modoPreparo": "Misture todos os ingredientes e cozinhe até o ponto de brigadeiro. Modele as cocadas e deixe esfriar."
+    },
+    {
+      "nome": "Brigadeiro",
+      "categoria": "Doces e Sobremesas",
+      "historia": "O brigadeiro é um doce clássico brasileiro, geralmente servido em festas de aniversário.",
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "2 colheres de sopa de achocolatado",
+        "1 colher de sopa de manteiga"
+      ],
+      "modoPreparo": "Misture os ingredientes e cozinhe em fogo baixo até desgrudar do fundo da panela. Modele os brigadeiros e passe no granulado."
+    },
+    {
+      "nome": "Quindim",
+      "categoria": "Doces e Sobremesas",
+      "historia": "O quindim é uma sobremesa brasileira feita com coco, açúcar e ovos, famosa pela sua textura cremosa.",
+      "ingredientes": [
+        "10 gemas",
+        "200g de açúcar",
+        "100g de coco ralado",
+        "200g de manteiga"
+      ],
+      "modoPreparo": "Misture os ingredientes e coloque em forminhas untadas. Asse em banho-maria por 30 minutos a 180°C."
+    },
+    {
+      "nome": "Pé de Moleque",
+      "categoria": "Doces e Sobremesas",
+      "historia": "O pé de moleque é um doce de amendoim caramelizado, muito tradicional em festas e comemorações.",
+      "ingredientes": [
+        "1 xícara de amendoim",
+        "2 xícaras de açúcar",
+        "1 colher de chá de manteiga"
+      ],
+      "modoPreparo": "Caramelize o açúcar até ficar dourado. Adicione o amendoim e manteiga. Mexa até secar e modele em pedaços."
+    },
+    {
+      "nome": "Arroz Doce",
+      "categoria": "Doces e Sobremesas",
+      "historia": "O arroz doce é um prato tradicional, consumido tanto como sobremesa quanto lanche, em diversas regiões do Brasil.",
+      "ingredientes": [
+        "1 xícara de arroz",
+        "3 xícaras de leite",
+        "1 xícara de açúcar",
+        "Canela em pau"
+      ],
+      "modoPreparo": "Cozinhe o arroz com o leite até ficar bem macio. Adicione o açúcar e deixe engrossar. Finalize com canela."
+    },
+    {
+      "nome": "Ambrosia",
+      "categoria": "Doces e Sobremesas",
+      "historia": "A ambrosia é uma sobremesa que remonta ao período colonial, sendo feita com leite e ovos.",
+      "ingredientes": [
+        "1 litro de leite",
+        "4 ovos",
+        "1 xícara de açúcar",
+        "Canela em pó"
+      ],
+      "modoPreparo": "Cozinhe o leite com o açúcar até reduzir. Adicione os ovos e cozinhe até engrossar. Finalize com canela."
+    }
+  
+  ]

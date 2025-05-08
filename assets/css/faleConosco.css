@@ -1,13 +1,22 @@
 body {
-    font-family: Nunito, sans-serif;
-    background-color: rgba(255, 251, 234, 0.8);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  font-family: 'Nunito', sans-serif;
+  background-color: #fffbea;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #335c67;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+  h1{
+    color:#fff;
+    font-size:45px ;
   }
-  
   main {
     flex: 1; 
     display: flex;
@@ -22,7 +31,7 @@ body {
   }
   
   
-  h1, h2 {
+  h2 {
     text-align: center;
     color: #9e2a2b;
     margin-bottom: 20px;

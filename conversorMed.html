@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conversor de Medidas - De Sabor e História</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/conversorMed.css">
+</head>
+<body>
+  <header>
+    <h1>Conversor de Medidas</h1>
+  </header>
+
+  <div class="explicacao-centralizada">
+    <h2>Como funciona o conversor?</h2>
+    <p>
+      Este conversor transforma medidas de ingredientes comuns em receitas brasileiras.
+      Basta seguir os passos:
+    </p>
+    <ol>
+      <li>Selecione o ingrediente.</li>
+      <li>Digite a quantidade e escolha a medida atual.</li>
+      <li>Escolha a medida para a qual deseja converter.</li>
+      <li>Clique em <strong>Converter</strong> para ver o resultado!</li>
+    </ol>
+    
+  </div>
+  
+  
+
+  <section class="Conversor-de-medidas">
+    
+
+    <div class="form-container">
+        <label for="ingrediente" id="ingrediente-label">Selecione o ingrediente:</label>
+      <select id="ingrediente">
+        <option value="acucar">Açúcar</option>
+        <option value="fuba">Fubá</option>
+        <option value="farinha">Farinha de Trigo</option>
+        <option value="aveia">Aveia</option>
+        <option value="amido">Amido de Milho</option>
+        <option value="chocolate">Chocolate em Pó</option>
+        <option value="liquido">Líquidos</option>
+        <option value="mel">Mel</option>
+        <option value="manteiga">Manteiga</option>
+      </select>
+
+      <label for="quantidade">Quantidade:</label>
+      <input type="number" id="quantidade" placeholder="Digite a quantidade" />
+
+      <label for="unidade1">De:</label>
+      <select id="unidade1">
+        <option value="colherDeCha">Colher de chá</option>
+        <option value="colherDeSopa">Colher de sopa</option>
+        <option value="copoAmericano">Copo americano</option>
+        <option value="xicaraDeCha">Xícara de chá</option>
+
+      </select>
+
+      <label for="unidade2">Para:</label>
+      <select id="unidade2">
+        <option value="colherDeCha">Colher de chá</option>
+        <option value="colherDeSopa">Colher de sopa</option>
+        <option value="copoAmericano">Copo americano</option>
+        <option value="xicaraDeCha">Xícara de chá</option>
+
+
+      </select>
+
+      <button onclick="converter()">Converter</button>
+
+      <p id="resultado">Resultado: </p>
+    </div>
+  </section>
+
+  <script src="assets/js/conversorMed.js"></script>
+</body>
+</html>
+

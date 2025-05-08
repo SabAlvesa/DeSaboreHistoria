@@ -1,0 +1,123 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #fffbea;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #335c67;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.explicacao-centralizada {
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto 20px auto;
+    padding: 0 20px;
+    color: #333;
+    font-size: 20px;
+}
+
+.explicacao-centralizada h2 {
+    color: #335c67;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.explicacao-centralizada ol {
+    padding-left: 20px;      
+    margin: 10px auto;
+    line-height: 1.5;       
+    list-style-position: inside;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+#ingrediente-label {
+    color: #9e2a2b;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.Conversor-de-medidas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 130px 100px;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+   
+}
+
+.form-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #335c67;
+}
+
+input, select {
+    width: 100%;
+    padding: 25px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #fdfdfd;
+  
+}
+
+input:focus, select:focus {
+    border-color: #9e2a2b;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 25px;
+    background-color: #335c67;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+   
+}
+
+button:hover {
+    background-color: #9e2a2b;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #9e2a2b;
+    text-align: center;
+}
+
+
+
