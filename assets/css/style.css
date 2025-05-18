@@ -35,21 +35,19 @@
     background-color: #9e2a2b;
  }
 
- .logo-link {
-  display: flex;
+ .logo {
+  position: fixed; /* Fixa no topo */
+  top: 10px;       /* Espaçamento do topo */
+  left: 10px;      /* Espaçamento da esquerda */
   align-items: center;
-  text-decoration: none;
-}
+  gap: 8px;        /* Espaço entre a imagem e o texto */
+ }
 
-.logo img {
-  height: 500px; 
-}
 
-.logo-text {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #335c67; 
-  font-family: 'Poppins', sans-serif;
+
+.logo-img {
+  height: 40px; /* Ajuste o tamanho da imagem */
+  width: auto;
 }
 
  

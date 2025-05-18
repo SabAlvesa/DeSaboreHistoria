@@ -1,0 +1,91 @@
+{
+    "receitas": [
+      {
+        "nome": "Feijoada",
+        "categoria": "Pratos Típicos Brasileiros",
+        "historia": "A feijoada tem suas origens no Brasil colonial, onde escravizados africanos aproveitaram partes menos nobres do porco, como orelha, pé e rabo, para criar um prato nutritivo e econômico. Inspirada nos guisados portugueses, a feijoada ganhou identidade própria com o feijão preto e temperos locais, tornando-se símbolo da resistência cultural negra e da mistura de influências que formam a culinária brasileira.",
+        "imagem": "https://cdn.blablacar.com/wp-content/uploads/br/2024/11/11162049/feijoada-acompanhamentos.webp"
+      },
+      {
+        "nome": "Moqueca",
+        "categoria": "Pratos Típicos Brasileiros",
+        "historia": "A moqueca nasceu nas comunidades indígenas e pescadoras do litoral brasileiro, principalmente na Bahia. O prato é fruto da fusão entre ingredientes indígenas, como o leite de coco, e africanos, como o azeite de dendê, revelando a riqueza da miscigenação cultural. Ela celebra a relação ancestral entre o homem e o mar, preservada em cada região que a prepara.",
+        "imagem": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/9ae6e28383dc732ba697d21aaa71edbf.jpg"
+      },
+      {
+        "nome": "Baião de Dois",
+        "categoria": "Pratos Típicos Brasileiros",
+        "historia": "No sertão nordestino, o baião de dois surgiu como alimento simples e nutritivo para vaqueiros e trabalhadores rurais que enfrentavam longas jornadas sob o sol intenso. Misturando arroz com feijão verde ou macassa, carne seca e queijo coalho, o prato é símbolo da criatividade nordestina e da cultura sertaneja, refletindo a vida do interior do Brasil.",
+        "imagem": "https://i.ytimg.com/vi/9TVEmlFxZGA/maxresdefault.jpg"
+      },
+      {
+        "nome": "Tapioca",
+        "categoria": "Pratos Típicos Brasileiros",
+        "historia": "A tapioca é uma herança dos povos indígenas brasileiros, que extraíam a fécula da mandioca para fazer essa preparação versátil e nutritiva. Popular no Norte e Nordeste do país, ela mantém viva a tradição ancestral da mandioca, alimento fundamental para a sobrevivência e cultura das comunidades nativas.",
+        "imagem": "https://static.wixstatic.com/media/a85c73_8e4f04aa2906481bb6945e4660aeb9bf~mv2.jpg/v1/fill/w_1200,h_450,al_c,q_85/capa-tapioca-tradicional.jpg"
+      },
+      {
+        "nome": "Cuscuz Nordestino",
+        "categoria": "Pratos Típicos Brasileiros",
+        "historia": "O cuscuz nordestino é fruto da influência indígena, adaptado ao uso da farinha de milho local. Consumido especialmente no café da manhã, ele é presença constante nas casas do sertão, simbolizando a resistência e o cotidiano das populações que vivem em regiões de clima seco e recursos limitados.",
+        "imagem": "https://essareceitafunciona.com.br/wp-content/uploads/2022/08/Cuscuz-nordestino-Essa-Receita-Funciona-7-500x500.jpg"
+      },
+      {
+        "nome": "Pão de Queijo",
+        "categoria": "Pratos Típicos Brasileiros",
+        "historia": "Originário do estado de Minas Gerais, o pão de queijo surgiu com influência dos colonizadores portugueses e da cultura indígena que já utilizava a mandioca. Usando polvilho e queijo local, essa iguaria representa a união de tradições e ingredientes regionais, se tornando um símbolo da gastronomia mineira e brasileira.",
+        "imagem": "https://moinhoglobo.com.br/wp-content/uploads/2016/03/44-p%C3%A3o-de-queijo.jpg"
+      },
+      {
+        "nome": "Cocada",
+        "categoria": "Doces e Sobremesas",
+        "historia": "A cocada tem raízes nas tradições africanas trazidas ao Brasil pelos escravizados, que usavam o coco nativo para criar doces simples e energéticos. Com o tempo, tornou-se popular em festas e celebrações do Nordeste, conectando passado colonial e cultura popular numa doce memória de resistência e identidade.",
+        "imagem": "https://static.itdg.com.br/images/auto-auto/74fba6242a9e5774c6de951c8468d4d4/dicas-para-a-cocada-perfeita.jpg"
+      },
+      {
+        "nome": "Brigadeiro",
+        "categoria": "Doces e Sobremesas",
+        "historia": "Criado na década de 1940, durante a campanha eleitoral do Brigadeiro Eduardo Gomes, o brigadeiro ganhou esse nome em homenagem ao candidato. Rapidamente virou símbolo das festas brasileiras, feito com ingredientes simples como leite condensado e chocolate, representando a alegria e inventividade do povo brasileiro.",
+        "imagem": "https://www.sabornamesa.com.br/media/k2/items/cache/5003d452a8da016f3ed02a6385cf54e8_XL.jpg"
+      },
+      {
+        "nome": "Quindim",
+        "categoria": "Doces e Sobremesas",
+        "historia": "O quindim é um doce de origem portuguesa, que chegou ao Brasil no período colonial e foi transformado com ingredientes locais, como o coco e o açúcar de cana. Muito popular no Nordeste, especialmente em Pernambuco, o quindim carrega influências indígenas e africanas, refletindo a complexa história da doçaria brasileira.",
+        "imagem": "https://portalemfoco.com.br/wp-content/uploads/2021/06/ItuveravaPadaria20210609.jpg"
+      },
+      {
+        "nome": "Pamonha",
+        "categoria": "Doces e Sobremesas",
+        "historia": "A pamonha é um prato típico das culturas indígenas que habitavam o Brasil antes da colonização. Feita com milho verde ralado e cozida na própria palha, ela representa uma conexão com a terra, a agricultura tradicional e as práticas alimentares ancestrais das comunidades nativas.",
+        "imagem": "https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2023/05/22/pamonha-r1ak8eh2lcfr.jpg"
+      },
+      {
+        "nome": "Macarrão à Bolonhesa",
+        "categoria": "Massas e Pastas",
+        "historia": "O macarrão à bolonhesa tem sua origem na região da Emilia-Romagna, na Itália, e chegou ao Brasil com a imigração italiana no século XIX. Com o tempo, adaptou-se aos ingredientes locais e ao paladar brasileiro, tornando-se um prato tradicional que representa a influência europeia na culinária do país.",
+        "imagem": "https://areademulher.r7.com/wp-content/uploads/2022/04/macarrao-a-bolonhesa-receita-simples-e-facil-de-fazer-1200x900.jpeg"
+      },
+      {
+        "nome": "Lasanha",
+        "categoria": "Massas e Pastas",
+        "historia": "A lasanha é um prato com raízes na cozinha romana e foi popularizada na Itália ao longo dos séculos. Chegando ao Brasil pelas ondas migratórias italianas, ela ganhou versões regionais, tornando-se um prato muito presente nas famílias brasileiras, simbolizando a mistura de culturas e a valorização do encontro em torno da mesa.",
+        "imagem": "https://renata.com.br/images/receitas/141/renata-imagem-receitas-lasanha-a-bolonhesa-share.jpg"
+      },
+      {
+        "nome": "Nhoque",
+        "categoria": "Massas e Pastas",
+        "historia": "O nhoque tem origem italiana e está ligado às tradições camponesas da Itália, feitas com batata, farinha e ovos. No Brasil, especialmente no Sul, recebeu influência dos imigrantes italianos e virou um prato tradicional, símbolo das celebrações familiares e da cultura da imigração.",
+        "imagem": "https://receitadaboa.com.br/wp-content/uploads/2024/11/nhoque-a-bolonhesa.jpg"
+      },
+      {
+        "nome": "Talharim com Molho Branco",
+        "categoria": "Massas e Pastas",
+        "historia": "O talharim, uma massa fina de origem italiana, tornou-se popular no Brasil por meio da colonização e imigração. Com o molho branco, que tem raízes na culinária francesa, o prato representa uma fusão de influências europeias que ganharam nova cara e sabor na cozinha brasileira.",
+        "imagem": "https://static.itdg.com.br/images/640-440/575269b78e6bfa2feae77b512e2059f0/22476-96645-original.jpg"
+      }
+    ]
+  }
+  
+  
+  
