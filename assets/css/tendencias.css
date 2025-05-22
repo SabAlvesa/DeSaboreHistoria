@@ -1,0 +1,91 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF9ED;
+  color: #333;
+}
+
+header {
+  background-color: #335c67;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  font-family: 'Poppins', sans-serif;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 8px;
+}
+
+.news-container {
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.card-content h2.card-title {
+  font-size: 1.3em;
+  margin: 10px 0;
+  color: #9e2a2b;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-content p.card-description {
+  font-size: 0.95em;
+  color: #555;
+  flex-grow: 1;
+}
+
+.card-link {
+  margin-top: 12px;
+  font-weight: 600;
+  color: #335c67;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #335c67; 
+  color: white;              
+  text-align: center;        
+  padding: 50px 10px;           
+  margin-top: 50px;          
+  font-size: 16px; 
+  font-family: 'Poppins', sans-serif;
+}
+

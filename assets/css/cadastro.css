@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  background: #FFF9ED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#signup-form {
+  background: #335c67;
+  padding: 60px;
+  border-radius: 60px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 450px;
+}
+
+h1 {
+  color: #FFF9ED;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #e09f3e;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #FFF9ED;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 15px 60px;
+  margin: 5px;
+  border: none;
+  border-radius: 20px;
+  background-color: #9e2a2b;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #e09f3e;
+}
+
+a {
+  display: block;
+  margin-top: 15px;
+  color: #e09f3e;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+body.cadastro-page label {
+  color: #FFF9ED;
+}

@@ -1,35 +1,35 @@
-function realizarBusca() {
+ const banners = document.querySelectorAll('.banner');
+    const prevBtn = document.querySelector('.prev');
+    const nextBtn = document.querySelector('.next');
+    const bannerLink = document.getElementById('banner-link');
 
-    var termoBusca = document.getElementById('pesquisa').value;
+    const links = [
+      "https://www.youtube.com/shorts/0o56oX241SI",
+      "https://gymchef.com.br/marmita-low-carb2",
+      "https://www.em.com.br/colunistas/carolina-figueira/2024/09/6941491-gourmet-x-artesanal-o-que-realmente-estamos-comendo.html"
+    ];
 
- 
-    if (termoBusca.trim() === "") {
-        alert("Por favor, insira um termo para a busca.");
-    } else {
-      
-        window.location.href = "pages/PaginadeBusca.html?termo=" + encodeURIComponent(termoBusca);
+    let current = 0;
 
+    function showBanner(index) {
+      banners.forEach((banner, i) => {
+        banner.classList.remove('active');
+        if (i === index) banner.classList.add('active');
+      });
+
+      bannerLink.href = links[index];
     }
-}
 
+    prevBtn.addEventListener('click', () => {
+      current = (current - 1 + banners.length) % banners.length;
+      showBanner(current);
+    });
 
-document.getElementById('pesquisa').addEventListener('keypress', function(event) {
-    if (event.key === "Enter") {
-        realizarBusca();
-    }
-});
+    nextBtn.addEventListener('click', () => {
+      current = (current + 1) % banners.length;
+      showBanner(current);
+    });
 
+   
+    showBanner(current);
 
-function obterParametroBusca() {
-           
-            const urlParams = new URLSearchParams(window.location.search); 
-            const termoBusca = urlParams.get('termo'); 
-
-            if (termoBusca) {
-                document.getElementById("resultados").innerHTML = "Você está buscando por: " + termoBusca;
-            } else {
-                document.getElementById("resultados").innerHTML = "Nenhum termo de busca foi fornecido."
-            }
-}
-
- window.onload = obterParametroBusca;

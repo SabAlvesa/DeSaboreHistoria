@@ -1,32 +1,23 @@
+document.getElementById('login-form').onsubmit = function (e) {
+  e.preventDefault();
 
-window.onload = function () {
-    const storedUsername = localStorage.getItem('username');
-    const storedPassword = localStorage.getItem('password');
+  const usernameInput = document.getElementById('username').value;
+  const passwordInput = document.getElementById('password').value;
+
   
-    if (storedUsername && storedPassword) {
-      
-      window.location.href = 'usuario.html';  
-    }
-  };
-  
- 
-  document.getElementById('login-form').onsubmit = function (e) {
-    e.preventDefault(); 
-  
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
-  
-    
-    if (username === 'Sabrina123' && password === 'sabrina123') {
-      
-      localStorage.setItem('username', username);
-      localStorage.setItem('password', password);
-  
-      
-      window.location.href = 'usuario.html';
-    } else {
-      alert('Usuário ou senha incorretos');
-    }
-  };
+  const storedUser = JSON.parse(localStorage.getItem('user'));
+
+  if (
+    storedUser &&
+    usernameInput === storedUser.username &&
+    passwordInput === storedUser.password
+  ) {
+    alert('Login bem-sucedido!');
+    window.location.href = 'usuario.html';
+  } else {
+    alert('Usuário ou senha incorretos.');
+  }
+};
+
   
   

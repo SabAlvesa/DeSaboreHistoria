@@ -1,37 +1,56 @@
-// Verifica se está logado
 window.onload = function () {
-  const username = localStorage.getItem('username');
-  const password = localStorage.getItem('password');
-  const savedImg = localStorage.getItem('profileImg');
+  
+  const user = JSON.parse(localStorage.getItem('user'));
 
-  if (!username || !password) {
+  if (!user) {
+   
     window.location.href = 'login.html';
+    return;
   }
 
-  // Carregar imagem salva (se tiver)
+ 
+  document.getElementById('user-fullname').textContent = user.fullname;
+  document.getElementById('user-email').textContent = user.email;
+  document.getElementById('user-username').textContent = user.username;
+  document.getElementById('user-age').textContent = user.age;
+
+
+  const savedImg = localStorage.getItem('profileImg');
   if (savedImg) {
     document.getElementById('profile-pic').src = savedImg;
   }
-};
 
-// Logout
-document.getElementById('logout-btn').onclick = function () {
-  localStorage.removeItem('username');
-  localStorage.removeItem('password');
-  localStorage.removeItem('profileImg');
-  window.location.href = 'login.html';
-};
+ 
+  const tabs = document.querySelectorAll('.tab');
+  const contents = document.querySelectorAll('.tab-content');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      contents.forEach(c => c.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById(tab.dataset.tab).classList.add('active');
+    });
+  });
 
-// Trocar imagem de perfil
-document.getElementById('upload-img').addEventListener('change', function () {
-  const file = this.files[0];
-  if (file) {
-    const reader = new FileReader();
-    reader.onload = function (e) {
-      const imgData = e.target.result;
-      document.getElementById('profile-pic').src = imgData;
-      localStorage.setItem('profileImg', imgData); // Salva no localStorage
-    };
-    reader.readAsDataURL(file);
-  }
-});
+ 
+  document.getElementById('upload-img').addEventListener('change', function () {
+    const file = this.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = function (e) {
+        const imgData = e.target.result;
+        document.getElementById('profile-pic').src = imgData;
+        localStorage.setItem('profileImg', imgData);
+      };
+      reader.readAsDataURL(file);
+    }
+  });
+
+
+  document.getElementById('logout-btn').addEventListener('click', function (e) {
+    e.preventDefault();
+    localStorage.removeItem('user');
+    localStorage.removeItem('profileImg');
+    window.location.href = 'login.html';
+  });
+};
