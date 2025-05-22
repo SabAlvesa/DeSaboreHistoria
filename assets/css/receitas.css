@@ -284,3 +284,21 @@ h1, h2 {
 }
 
 
+.voltar-home {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.botao-home img {
+  width: 200px;  /* ou o tamanho que quiser */
+  height: auto;
+  transition: transform 0.3s ease;
+  border-radius: 50%; /* se quiser deixar arredondado */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.botao-home img:hover {
+  background-color: #162a30;
+  transform: scale(1.1);
+}

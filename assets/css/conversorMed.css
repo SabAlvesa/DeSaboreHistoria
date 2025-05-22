@@ -1,17 +1,29 @@
 body {
-    font-family: 'Nunito', sans-serif;
-    background-color: #fffbea;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF9ED;
+  color: #333;
 }
 
 header {
-    background-color: #335c67;
-    color: white;
-    text-align: center;
-    padding: 20px 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #335c67;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+  
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+ 
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 8px;
+
 }
 
 .explicacao-centralizada {
@@ -119,5 +131,86 @@ button:hover {
     text-align: center;
 }
 
+/*Folder*/
+.rodape {
+   background-color: #335c67; 
+   color: white;              
+   text-align: center;        
+   padding: 50px 0;           
+   margin-top: 50px;          
+   font-size: 16px; 
+}
+
+.logo img {
+  max-height: 200px;  
+  width: auto;      
+  display: block;   
+}
+
+.rodape a {
+   color: #fff;
+   text-decoration: none;
+}
+ 
+ .rodape a:hover {
+   color: #9e2a2b;
+ }
+
+.rodape a:hover {
+   text-decoration: underline;
+}
+.redes-sociais i {
+   font-size: 30px;
+   color: #ffdb58;
+   margin-right: 10px;
+   transition: transform 0.3s;
+ }
+ 
+ .redes-sociais i:hover {
+   transform: scale(1.2);
+   color: #9e2a2b; 
+ }
+ 
+ .container-rodape {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: flex-start;
+   gap: 30px;
+ }
+
+
+ .rodape h3 {
+   margin-bottom: 10px;
+   font-size: 18px;
+   font-size: 25px;
+   color: #fff;
+ }
+ 
+ .rodape p {
+   font-size: 14px;
+   line-height: 1.5;
+   max-width: 300px;
+ }
+ 
+ .redes-sociais a img {
+   width: 30px;
+   margin-right: 10px;
+   transition: transform 0.3s;
+ }
+ 
+ 
+ .direitos {
+   width: 100%;
+   display: flex;
+   justify-content: center; 
+   align-items: center;     
+   margin-top: 30px;
+   font-size: 13px;
+   border-top: 5px solid rgba(255, 255, 255, 0.3);
+   padding-top: 15px;
+   text-align: center;
+ }
+ 
 
 
