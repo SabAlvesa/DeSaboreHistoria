@@ -9,7 +9,7 @@ Este projeto é um site de receitas culinárias desenvolvido como parte da disci
 - **JavaScript (Vanilla)**
 - **APIs externas**:
   - [Open Food Facts](https://world.openfoodfacts.org/) – para exibir valores nutricionais.
-  - [Google Trends ou News API] – para mostrar tendências alimentares (nutricionais e culturais).
+  - [News API] – para mostrar tendências alimentares (nutricionais e culturais).
 - **JSON personalizado** – utilizado para armazenar e exibir receitas organizadas por categorias.
 
 ## Funcionalidades
