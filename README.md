@@ -14,8 +14,7 @@ Este projeto é um site de receitas culinárias desenvolvido como parte da disci
 
 ## Funcionalidades
 
-- Exibição de receitas com imagens, ingredientes, modo de preparo e contexto histórico.
-- Filtro por categoria (ex: Doces típicos, Massas e pastas, Carnes e aves, Comidas Brasileiras).
+- Exibição de receitas com imagens, ingredietes, modo de preparo e contexto histórico.
 - Conversor de medidas culinárias (ex: colher de sopa, xícara, gramas).
 - Integração com APIs para exibir **valores nutricionais** dos ingredientes.
 - Identificação de **tendências nutricionais** com base em buscas populares.
