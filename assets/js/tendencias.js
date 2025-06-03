@@ -1,4 +1,4 @@
-const API_KEY = '541c5d48ce53471293286efa4bd4cb57'; 
+const API_KEY = 'efbab9e09edf472992162a78d077dac2'; 
 const url = `https://newsapi.org/v2/everything?q=nutrição receitas&language=pt&sortBy=publishedAt&apiKey=${API_KEY}`;
 
 async function fetchNews() {
